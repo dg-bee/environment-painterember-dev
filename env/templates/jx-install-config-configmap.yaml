@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAMO8FgEhua62UJz5PdmanPgwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkYTEyOGQ5NzMtMmFkMC00ZmI0LWI4MzgtNDg4Njk1OGExNDI4
+    MB4XDTE5MDUxMzIxMzkyMFoXDTI0MDUxMTIyMzkyMFowLzEtMCsGA1UEAxMkYTEy
+    OGQ5NzMtMmFkMC00ZmI0LWI4MzgtNDg4Njk1OGExNDI4MIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEAvZerMV6NtnDWATzr4LvXGJxE+mi8bMeDMPMvceNA
+    kQTxoxM7F6oAn7bqvbuwjd7lwAMSRM2C3Ou80j4xw4meXyIaimKXLlUKXbJEtR+e
+    vxE2AFlwRjlExC20PTHAM8Dugnzu7yGNMpSY7MyqeOu+KPI0QeeAyI3pNnvqcpOR
+    vZMX/wTOPNL995AKExq/Cd77/sDINH/p9TckD0ocIiWP8XlyJYIbLCeqZM1yAp4a
+    +w+42f0nuiGGJkxzx33S2btx1azlldRVb25yRzNhvjTlfrcEBQ2H7l5Zp44s47+u
+    2+zidu0YCvTx+uW/3g5WDfgBolD/5yWa4Dme5AWcn+z7GQIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    tmen8wQEmmpZq3dOOjS441dqN8Ha27vjryvF8NcSqdruJHy30CXPLAg5KdtUsRUA
+    iS+DdNaycoIHH3Ea52DaBB6AbeGwkx5n5v6Turu1gF2a5NJ7oJsv5+C+yxQMyQDb
+    9WNsv40YCBzvN6djbSDPCvwoxCwr+hcCDWkurwC7QngUn2jTShEnjHtY0MOftMCk
+    80+FyPRwLPC0iBJfsXosHUlpjwjeDOOm/n8+MQ67HDeBtKw+kkjfqPsgFxg8eUUw
+    9N1kNCBQ1/4AoxbhyVpfZjxGdoZ6b+JGjxhe6XiJXAp56fBiFP1eFMCrdZNdtoPs
+    eJPLTvYNLGwZe+jgeMkB6A==
+    -----END CERTIFICATE-----
+  clusterName: painterember
+  jx-install-version: 2.0.0-dev+7b5c81c3a
+  kubeProvider: gke
+  projectID: apps-dev-229310
+  region: ""
+  secretsLocation: vault
+  server: https://34.76.168.186
+  systemVaultName: jx-vault-painterember
+  zone: europe-west1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
