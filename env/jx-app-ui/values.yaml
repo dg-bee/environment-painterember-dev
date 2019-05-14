@@ -1,0 +1,5 @@
+ui:
+  sso:
+    certIssuerName: cert
+    domain: localhost
+    oidcIssuerUrl: http://localhost
